@@ -16,13 +16,7 @@ git clone https://github.com/Alessandro-Miranda/cc-trilha-front.git
 
 
 
-Caso todas as dependências tenham sido instaladas corretamente, já será possível iniciar o servidor de desenvolvimento executando o seguinte comando:
 
-```bash
-yarn dev
-## ou
-npm run dev
-```
 
 Pronto! Você já conseguirá acessar a aplicação acessando `localhost:5173`.
 
@@ -31,4 +25,4 @@ Pronto! Você já conseguirá acessar a aplicação acessando `localhost:5173`.
 
 ## Deploy
 
-O deploy da aplicação foi feito utilizando a Vercel.
+O deploy da aplicação foi feito utilizando a GitHub Pages.
