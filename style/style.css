@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lilita One", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* Transição para elemento com id dynamic-text */
+#dynamic-text {
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Estilização da lista de menu */
+.listaMenu {
+  display: inline;
+  align-items: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+/* Estilo do logo */
+#logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+}
+
+/* Estilização dos links */
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* Estilização dos links no hover */
+a:hover {
+  color: #e53939;
+  text-decoration: none;
+}
+
+/* Estilo do cabeçalho */
+#cabecalho {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilo da seção home */
+#home {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: linear-gradient(to left, #fff, #e53939, #000);
+  background-size: 150% 180%;
+  animation: gradient-animation 3s ease infinite;
+  padding-bottom: 15px;
+}
+
+/* Estilização das redes sociais dentro da seção home */
+#home .redes-sociais {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  list-style: none;
+  padding-left: 50px;
+}
+
+/* Estilização dos ícones das redes sociais dentro da seção home */
+#home .redes-sociais a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 26px;
+  transition: 0.3s;
+}
+
+/* Estilização do texto dentro da seção home */
+#texto {
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  font-size: 35px;
+}
+
+/* Estilização das fotos dentro da seção home */
+#home .container-foto .foto,
+#home .container-foto img {
+  max-width: 450px;
+  border-radius: 50%;
+}
+
+/* Estilização específica para a foto com sombra interna */
+#home .foto.sombra-interna {
+  background: linear-gradient(to right, #fff, #d33c3c, #cacad4);
+  background-size: 180% 180%;
+}
+
+/* Estilização da imagem dentro da seção home */
+#home .container-foto img {
+  width: 100%;
+}
+
+/* Estilização do container mim */
+.container-mim {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 80vh;
+}
+
+/* Estilização da imagem dentro da classe foto1 */
+.foto1 img {
+  height: 500px;
+  padding-right: 120px;
+  animation: slideFromRight 5s ease forwards;
+}
+
+/* Estilização do texto dentro da classe textoM */
+.textoM {
+  text-align: center;
+  padding-left: 100px;
+  font-size: 20px;
+  animation: slideFromLeft 5s ease forwards;
+}
+
+/* Animação de slide do lado esquerdo */
+@keyframes slideFromLeft {
+  from {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* Animação de slide do lado direito */
+@keyframes slideFromRight {
+  from {
+      opacity: 0;
+      transform: translateX(100%);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* Estilização específica para tecnologias */
+.tecnologias{
+  background-color: #000;
+}
+.tecnologias ul {
+  display: flex;
+  gap: 50px;
+  padding: 30px;
+  list-style: none;
+  justify-content: center;
+  color: #fff;
+}
+
+.tecnologias h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 45px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.curiMot{
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+  height: 50vh;
+}
+
+.rodape p{  
+  width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+.rodape{
+  background-color: #e53939;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.foto2 img{
+  width: 300px;
+  
+}
+
+.moti{
+  color: #e53939;
+}
+
+.gosto{
+  color: black;
+}
+
+.curiosidades{
+  padding-top: 200px
+}
+
+@media (max-width: 1280px) {
+  #logo {
+    width: 80px;
+    height: 80px;
+    padding-left: 10px;
+  }
+
+  #cabecalho nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  a {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  #home {
+    flex-direction: column;
+    padding: 20px 30px 10px;
+    padding-bottom: 50px;
+  }
+
+  #home .redes-sociais {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  #texto {
+    padding-left: 0;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .textoM{
+    padding: 20px;
+  
+  }
+
+  #home .container-foto .foto,
+  #home .container-foto img {
+    max-width: 300px;
+  }
+
+  .container-mim {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .foto1 img {
+    height: auto;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .textoM {
+    padding-left: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .tecnologias h2 {
+    font-size: 35px;
+  }
+
+  .tecnologias ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .curiMot {
+    flex-direction: column;
+    height: auto;
+  }
+
+  p {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .foto2 img {
+    width: 200px;
+  }
+
+  .curiosidades {
+    padding-top: 100px;
+  }
+}

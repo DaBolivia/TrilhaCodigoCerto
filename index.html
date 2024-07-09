@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <title>Pedro Thiago Front End</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header id="cabecalho"> 
+        <img id="logo" src="img/logo.webp" alt="Profile Picture" class="profile-picture">
+        <nav>
+            <ul>
+                <li class="listaMenu"><a href="#mim">Sobre Min</a></li>
+                <li class="listaMenu"><a href="#tecnologias">Tecnologias</a></li>
+                <li class="listaMenu"><a href="#22">Gostos Pessoais</a></li>
+                <li class="listaMenu"><a href="#22">Motivações</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="/img/perfil.png" onmouseover="this.src='/img/frontend.png'"
+                onmouseout="this.src='/img/perfil.png'">
+            </div>
+            <ul class="redes-sociais">
+                <li>
+                    <a href="http://www.linkedin.com/in/pedro-thiago3939" title="ir para o linkedin" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://wa.me/5537991200080" title="Mandar mensagem pelo whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/DaBolivia" title="ir para GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/pedrodabolivia/" title="ir para o instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="texto">
+            <h1>Bem vindo, <br>Sou <span id="dynamic-text">Pedro Thiago</span></h1>
+        </div>
+    </section>
+    <section id="mim">
+        <div class="container-mim">
+
+            <div class="textoM">
+                <p>
+                    Olá, meu nome é Pedro Thiago Caetano da Cunha. Embora atualmente eu resida em Arcos-MG, mas sou natural de  Cochabamba, Bolívia. Estou prestes a concluir meu bacharelado em Sistemas de Informação pela PUC Minas, faltando apenas uma matéria para a formatura.
+
+                    Tenho uma paixão profunda pelo desenvolvimento front-end. Sou fascinado pela arte de transformar ideias em códigos e de traduzir esses códigos em experiências de usuário incríveis e imersivas. No momento, estou focado em aprimorar minhas habilidades em JavaScript e React, duas ferramentas poderosas que me permitem criar interfaces de usuário modernas e eficientes.
+                </p>
+            </div>
+            <div class="foto1">
+                <img src="./img/bandeira.png" alt="Imagem do meu rosto">
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="tecnologias" id="tecnologias">
+
+        <h2>Tecnologias:</h2>
+
+        <ul class="tech">
+            <li class="list">
+                <img src="./img/icons8-html-100.png" alt="">
+                <figcaption>HTML</figcaption>
+            </li>
+            <li class="list">
+                <img src="./img/icons8-css-100.png" alt="">
+                <figcaption>CSS</figcaption>
+            </li>
+            <li class="list">
+                <img src="./img/icons8-javascript-100.png" alt="">
+                <figcaption>JavaScript</figcaption>
+            </li>
+            <li class="list">
+                <img src="./img/icons8-reagir-100.png" alt="">
+                <figcaption>React</figcaption>
+            </li>
+            <li class="list">
+                <img src="./img/icons8-tailwind-css-100.png" alt="">
+                <figcaption>Tailwind</figcaption>
+            </li>
+            <li class="list">
+                <img src="./img/icons8-bootstrap-100.png" alt="">
+                <figcaption>BootStrap</figcaption>
+            </li>
+            <li class="list">
+                <img src="./img/icons8-git-100.png" alt="">
+                <figcaption>Git/GitHub</figcaption>
+            </li>
+        </ul>
+    </section>
+    <section class="curiMot" id="22">
+        <div class="curiosidades">
+            <h1 class="gosto">Gostos Pessoais</h1>
+            <p>Sou um boliviano radicado nas Minas Gerais, apaixonado por tecnologia e por todos os beneficios que ela traz, apreciador de boa cerveja, gamer(nas horas vagas) e um cruzeirense apaixonado.</p>
+        </div>
+        <div class="foto2">
+            <img src="./img/seta.png" alt="Imagem de bolo">
+        </div>
+        <div class="motivo">
+            <h1 class="moti">Motivações</h1>
+            <p>Minha maior motivação é estar em constante evolução, tanto na vida pessoal quanto na profissional, tornando-me a cada dia uma pessoa e um profissional melhor.</p>
+        </div>
+    </section>
+
+    <section class="rodape">
+        <p>Copyright<span>&copy</span><br>Todos os direitos reservados </p>
+    </section>
+    
+
+</body>
+</html>
