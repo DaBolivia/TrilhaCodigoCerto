@@ -7,12 +7,12 @@ body {
   overflow-x: hidden;
 }
 
-/* Transição para elemento com id dynamic-text */
+
 #dynamic-text {
   transition: opacity 0.5s ease-in-out;
 }
 
-/* Estilização da lista de menu */
+
 .listaMenu {
   display: inline;
   align-items: center;
@@ -21,14 +21,14 @@ body {
   padding: 0 auto;
 }
 
-/* Estilo do logo */
+
 #logo {
   width: 100px;
   height: 100px;
   padding-left: 20px;
 }
 
-/* Estilização dos links */
+
 a {
   text-decoration: none;
   color: #fff;
@@ -36,13 +36,13 @@ a {
   padding: 20px;
 }
 
-/* Estilização dos links no hover */
+
 a:hover {
   color: #e53939;
   text-decoration: none;
 }
 
-/* Estilo do cabeçalho */
+
 #cabecalho {
   background-color: #000;
   display: flex;
@@ -50,7 +50,7 @@ a:hover {
   align-items: center;
 }
 
-/* Estilo da seção home */
+
 #home {
   display: flex;
   flex-direction: row;
@@ -63,7 +63,7 @@ a:hover {
   padding-bottom: 15px;
 }
 
-/* Estilização das redes sociais dentro da seção home */
+
 #home .redes-sociais {
   display: flex;
   gap: 20px;
@@ -72,7 +72,7 @@ a:hover {
   padding-left: 50px;
 }
 
-/* Estilização dos ícones das redes sociais dentro da seção home */
+
 #home .redes-sociais a i {
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@ a:hover {
   transition: 0.3s;
 }
 
-/* Estilização do texto dentro da seção home */
+
 #texto {
   display: flex;
   align-items: center;
@@ -94,25 +94,25 @@ a:hover {
   font-size: 35px;
 }
 
-/* Estilização das fotos dentro da seção home */
+
 #home .container-foto .foto,
 #home .container-foto img {
   max-width: 450px;
   border-radius: 50%;
 }
 
-/* Estilização específica para a foto com sombra interna */
+
 #home .foto.sombra-interna {
   background: linear-gradient(to right, #fff, #d33c3c, #cacad4);
   background-size: 180% 180%;
 }
 
-/* Estilização da imagem dentro da seção home */
+
 #home .container-foto img {
   width: 100%;
 }
 
-/* Estilização do container mim */
+
 .container-mim {
   display: flex;
   align-items: center;
@@ -120,14 +120,14 @@ a:hover {
   height: 80vh;
 }
 
-/* Estilização da imagem dentro da classe foto1 */
+
 .foto1 img {
   height: 500px;
   padding-right: 120px;
   animation: slideFromRight 5s ease forwards;
 }
 
-/* Estilização do texto dentro da classe textoM */
+
 .textoM {
   text-align: center;
   padding-left: 100px;
@@ -135,7 +135,7 @@ a:hover {
   animation: slideFromLeft 5s ease forwards;
 }
 
-/* Animação de slide do lado esquerdo */
+
 @keyframes slideFromLeft {
   from {
       opacity: 0;
@@ -147,7 +147,7 @@ a:hover {
   }
 }
 
-/* Animação de slide do lado direito */
+
 @keyframes slideFromRight {
   from {
       opacity: 0;
@@ -159,7 +159,7 @@ a:hover {
   }
 }
 
-/* Estilização específica para tecnologias */
+
 .tecnologias{
   background-color: #000;
 }
