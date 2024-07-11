@@ -90,9 +90,10 @@ a:hover {
 #texto {
   display: flex;
   align-items: center;
-  padding-left: 150px;
-  font-size: 35px;
+  padding-left: 110px;
+  font-size: 30px;
 }
+
 
 
 #home .container-foto .foto,
@@ -310,9 +311,14 @@ p{
 
   .foto2 img {
     width: 200px;
+    padding-left: 70px;
+    transform: rotate(90deg);
+    padding-bottom: 20px;
   }
 
   .curiosidades {
     padding-top: 100px;
   }
 }
+
+
